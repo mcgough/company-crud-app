@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
-import Details from './views/Details.vue';
+import Company from './views/Company.vue';
 import Edit from './views/Edit.vue';
 
 Vue.use(Router);
@@ -15,7 +15,7 @@ export default new Router({
     },
     {
       path: '/company/:id',
-      component: Details,
+      component: Company,
     },
     {
       path: '/edit/:id',

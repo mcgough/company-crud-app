@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Edit Details</h2>
-    <form @submit.prevent="onSubmit" class="is-flex is-flex-wrap-nowrap">
+    <form @submit.prevent="onSubmit" class="is-flex">
       <input v-model="name" type="text" />
       <input v-model="domain" type="text" />
       <input v-model="numberOfEmployees" type="number" />
