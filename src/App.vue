@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-link to="/">
+      <h1>Companies CRUD App</h1>
+    </router-link>
+    <router-view />
   </div>
 </template>
 

@@ -8,7 +8,7 @@ function getAll() {
 }
 
 function getById(id) {
-  const company = fakeCompanies.find(company => company.id === id);
+  const company = fakeCompanies.find((company) => company.id === id);
   return Promise.resolve(company);
 }
 

@@ -1,6 +1,7 @@
 {
   "files": [".js", "*.vue"],
   "singleQuote": true,
-  "semi": false,
-  "trailingComma": "es5"
+  "semi": true,
+  "trailingComma": "es5",
+  "arrowParens": "always"
 }
